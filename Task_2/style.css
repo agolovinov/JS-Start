@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /*font-size: 16px;*/
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    background: #f1f1f1;
+    color: #0f141e;
+    margin: 0;
+}
+
+p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+code {
+    margin-left: 40px;
+}

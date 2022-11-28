@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    background: #f1f1f1;
+    color: #0f141e;
+    margin: 0;
+}
+
+div {
+    margin-top: 50px;
+}
+
+#btn {
+    background: rgb(38, 38, 38);
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#btn:hover {
+    opacity: 0.75;
+}

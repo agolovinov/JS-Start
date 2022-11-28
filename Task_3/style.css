@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f1f1f1;
+    margin-top: 30px;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+  }
+
+#trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-name: pulsing;
+    animation-fill-mode: both;
+  }
+  
+  #trafficLight:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes pulsing {
+    0% {
+      transform: scale(0.5, 0.5);
+    }
+    50% {
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      transform: scale(0.5, 0.5);
+    }
+  }
